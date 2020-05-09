@@ -25,6 +25,10 @@ class Doctor
     Appointment.new(date, patient, self)
   end
   
-  
+  def patients
+    songs.map do |song|
+      song.genre
+    end
+  end
   
 end 
