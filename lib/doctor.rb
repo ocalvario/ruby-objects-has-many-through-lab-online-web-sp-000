@@ -26,8 +26,8 @@ class Doctor
   end
   
   def patients
-    songs.map do |song|
-      song.genre
+    appointments.map do |appointment|
+      appointment.patient
     end
   end
   
