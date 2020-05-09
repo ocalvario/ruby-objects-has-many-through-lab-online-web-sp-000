@@ -4,6 +4,12 @@ class Doctor
   
   @@all = []
   
+  def initialize(name)
+    @name = name
+    save
+  end
+  
+  
   
   
 end 
